@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawSelectorOnTop="true"/>
+
+    <!--the drawSelectorOnTop in the word list add the touch ripple
+    effect to items on the list view
+    Could have also achieved this effet by adding this code
+
+    "?android:attr/selectableItemBackground"
+
+    to a view to the list_item
+    layout
+    <View
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="?android:attr/selectableItemBackground"/>-->
